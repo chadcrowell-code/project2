@@ -1,0 +1,11 @@
+name: 'simple node app'
+description: 'run ci on a simple node app'
+author: 'Chad Crowell'
+
+runs: 
+  using: 'node12'
+  main: 'dist/index.js'
+
+branding:
+  icon: "mic"
+  color: "purple"
